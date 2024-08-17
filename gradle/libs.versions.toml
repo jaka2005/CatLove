@@ -13,6 +13,8 @@ kspVersion = "2.0.10-1.0.24"
 retrofit = "2.10.0"
 serialization = "1.7.1"
 glide = "1.0.0-beta01"
+room = "2.3.0"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -34,6 +36,9 @@ hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler" , version.
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 serialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization" }
 glide = { group = "com.github.bumptech.glide", name = "compose", version.ref = "glide" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler =  { group = "androidx.room", name = "room-compiler", version.ref = "room" }
 
 
 [plugins]
